@@ -23,3 +23,8 @@ run("Auto Threshold", "method=MaxEntropy white");
 
 // measure 
 //run("Measure");
+
+// set measurments, analyze particles and save results
+run("Set Measurements...", "area mean standard min centroid center shape integrated display redirect=None decimal=3");
+run("Analyze Particles...", "  show=Outlines display exclude clear include");
+saveAs("Results", "C:/Users/laura/Desktop/Results.csv");
