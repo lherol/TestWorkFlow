@@ -1,6 +1,7 @@
 # TestWorkFlow
+[![DOI](https://zenodo.org/badge/213928794.svg)](https://zenodo.org/badge/latestdoi/213928794)
 
- A reprocducible bioimage analysis workflow
+A reprocducible bioimage analysis workflow
 
 
 ## Requirements
